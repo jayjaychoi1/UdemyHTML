@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJ's Portfolio</title>
+    <style>
+        body {
+            background-image: url("https://raw.githubusercontent.com/appbrewery/webdev/main/puppy.gif");
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap; 
+        }
+        .project {
+            border: 2px solid #100;
+            background-color: #F5F5F5;
+            padding: 15px;
+            margin-bottom: 20px;
+            max-width: 340px;
+            box-sizing: border-box;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        h1 {
+            background-color: #FFD700; /* Gold background */
+            color: #333; 
+            padding: 10px;
+            margin: 10px 0;
+        }
+        h3 {
+            background-color: #4682B4; /* Steel blue background */
+            color: #FFF;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>JJ's Portfolio</h1>
+    <h3>Welcome! This website will showcase what I have done with web development so far.</h3>
+    <hr>
+
+    <div class="container">
+        <div class="project">
+            <h3>Project 1: Movie Ranking</h3>
+            <a href="public/movie-ranking.html"> Link to Movie Ranking</a>
+            <br><br>
+            <img src="assets/images/move-ranking.png" alt="Movie Ranking">
+        </div>
+        
+        <div class="project"> 
+            <h3>Project 2: Birthday Invitation</h3>
+            <a href="public/birthday-invite.html"> Link to Birthday Invitation</a>
+            <br><br>
+            <img src="assets/images/birthday-invite.png" alt="Birthday Invitation">
+        </div>
+    </div>
+
+</body>
+</html>
