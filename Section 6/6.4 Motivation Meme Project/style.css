@@ -1,3 +1,25 @@
-h1{
-    font: "Libre Baskerville", cursive
+html {
+    background-color: black;
+}
+h1 {
+    font-family: "Libre Baskerville", cursive;
+    color: white;
+    font-size: 48px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+p {
+    margin-top: 0px;
+    color: white;
+    font-size: 38px;
+}
+div {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+#meme{
+    border: 3px solid white;
+    height: auto;
+    width: 100%;
 }
